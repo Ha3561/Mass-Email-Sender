@@ -6,7 +6,7 @@ from email import encoders
 import csv
 from tqdm import tqdm
 
-TEMP_PASS = "mvmc pjju gdqp pzzc"
+TEMP_PASS = "udnz blkb waop fpnq" #Making temperory app password
 
 def send_email(smtp_server, sender_email, receiver_email, subject, body, attachment_path=None):
     # Create the email message
@@ -39,7 +39,7 @@ def send_email(smtp_server, sender_email, receiver_email, subject, body, attachm
 
 def main():
     # Email account info
-    sender_email = "trijha.jhabua@gmail.com"
+    sender_email = "onmailharshit@gmail.com"
     sender_password = TEMP_PASS 
 
     # Get attachment file path
